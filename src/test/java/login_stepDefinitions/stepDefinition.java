@@ -1,4 +1,4 @@
-package stepDefinitions;
+package login_stepDefinitions;
 
 import org.junit.runner.RunWith;
 
