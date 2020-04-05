@@ -19,11 +19,11 @@ public class stepDefinition
 	 
 	}
 
-	@When("^User logging in to the application with \"([^\"]*)\" and \"([^\"]*)\"$")
-	public void user_logging_in_to_the_application_with_and(String arg1, String arg2) throws Throwable 
+	@When("^User logging in to the application with (.+) and (.+)$")
+    public void user_logging_in_to_the_application_with_and(String username, String password) throws Throwable 
 	{
-		System.out.println(arg1);
-    	System.out.println(arg2);
+		System.out.println(username);
+    	System.out.println(password);
     	System.out.println("Logged in the application with valid username and password");
 		
 	}
