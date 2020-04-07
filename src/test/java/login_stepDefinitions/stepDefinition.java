@@ -11,6 +11,32 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 public class stepDefinition 
 {
+	
+	  @Given("^Validate the Browser$")
+	    public void validate_the_browser() throws Throwable 
+	  	{
+
+		  System.out.println("choose the browser");
+
+	    }
+
+	    @When("^The browser is triggered$")
+	    public void the_browser_is_triggered() throws Throwable 
+	    {
+	    	
+	    	System.out.println("Browser is triggered");
+	        
+	    }
+
+	    @Then("^Check if the browser has triggered$")
+	    public void check_if_the_browser_has_triggered() throws Throwable 
+	    {
+	    	
+	    	System.out.println("Browser triggered successfully");
+	    	
+	    }
+	
+	
 	@Given("^User is on login page with credentials$")
 	public void user_is_on_login_page_with_credentials() throws Throwable 
 	{
