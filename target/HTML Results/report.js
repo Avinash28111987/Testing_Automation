@@ -93,21 +93,21 @@ formatter.match({
   "location": "stepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 157172369,
+  "duration": 2007604654,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.the_browser_is_triggered()"
 });
 formatter.result({
-  "duration": 133969,
+  "duration": 135248,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.check_if_the_browser_has_triggered()"
 });
 formatter.result({
-  "duration": 104956,
+  "duration": 110503,
   "status": "passed"
 });
 formatter.scenario({
@@ -146,7 +146,7 @@ formatter.match({
   "location": "stepDefinition.user_is_on_login_page_with_credentials()"
 });
 formatter.result({
-  "duration": 130129,
+  "duration": 5429579,
   "status": "passed"
 });
 formatter.match({
@@ -163,21 +163,21 @@ formatter.match({
   "location": "stepDefinition.user_logging_in_to_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 5814420,
+  "duration": 22389441,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.landing_in_the_Home_page()"
 });
 formatter.result({
-  "duration": 182180,
+  "duration": 122875,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.logging_to_application_is_validated()"
 });
 formatter.result({
-  "duration": 318283,
+  "duration": 109650,
   "status": "passed"
 });
 formatter.background({
@@ -206,21 +206,21 @@ formatter.match({
   "location": "stepDefinition.validate_the_browser()"
 });
 formatter.result({
-  "duration": 148048,
+  "duration": 151462,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.the_browser_is_triggered()"
 });
 formatter.result({
-  "duration": 177914,
+  "duration": 262818,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.check_if_the_browser_has_triggered()"
 });
 formatter.result({
-  "duration": 235939,
+  "duration": 111783,
   "status": "passed"
 });
 formatter.scenario({
@@ -259,7 +259,7 @@ formatter.match({
   "location": "stepDefinition.user_is_on_login_page_with_credentials()"
 });
 formatter.result({
-  "duration": 211193,
+  "duration": 351988,
   "status": "passed"
 });
 formatter.match({
@@ -276,21 +276,21 @@ formatter.match({
   "location": "stepDefinition.user_logging_in_to_the_application_with_and(String,String)"
 });
 formatter.result({
-  "duration": 528196,
+  "duration": 800400,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.landing_in_the_Home_page()"
 });
 formatter.result({
-  "duration": 266658,
+  "duration": 286283,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefinition.logging_to_application_is_validated()"
 });
 formatter.result({
-  "duration": 207353,
+  "duration": 272204,
   "status": "passed"
 });
 });
