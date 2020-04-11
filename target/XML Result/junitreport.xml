@@ -1,21 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="2.038139">
-<testcase classname="Login the application" name="Login to default homepage" time="2.035902">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.425005">
+<testcase classname="Login the application" name="Login to default homepage" time="16.425005">
 <system-out><![CDATA[Given Validate the Browser..................................................passed
 When The browser is triggered...............................................passed
-Then Check if the browser has triggered.....................................passed
-Given User is on login page with credentials................................passed
-When User logging in to the application with ACNADMFR and ACNADMFR1.........passed
-Then Landing in the Home page...............................................passed
-And Logging to application is validated.....................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Login the application" name="Login to default homepage 2" time="0.002237">
-<system-out><![CDATA[Given Validate the Browser..................................................passed
-When The browser is triggered...............................................passed
-Then Check if the browser has triggered.....................................passed
-Given User is on login page with credentials................................passed
-When User logging in to the application with ACNADMUS and ACNADMUS1.........passed
+Then Check if the browser has triggered and closed..........................passed
+Given User is on login page.................................................passed
+When User logging in to the application with user@phptravels.com and demouser.passed
 Then Landing in the Home page...............................................passed
 And Logging to application is validated.....................................passed
 ]]></system-out>

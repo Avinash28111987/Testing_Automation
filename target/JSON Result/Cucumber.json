@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2007604654,
+              "duration": 13016137118,
               "status": "passed"
             },
             "line": 4,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 135248,
+              "duration": 9785864,
               "status": "passed"
             },
             "line": 5,
@@ -35,13 +35,13 @@
           },
           {
             "result": {
-              "duration": 110503,
+              "duration": 237223,
               "status": "passed"
             },
             "line": 6,
-            "name": "Check if the browser has triggered",
+            "name": "Check if the browser has triggered and closed",
             "match": {
-              "location": "stepDefinition.check_if_the_browser_has_triggered()"
+              "location": "stepDefinition.check_if_the_browser_has_triggered_and_closed()"
             },
             "keyword": "Then "
           }
@@ -57,32 +57,32 @@
         "steps": [
           {
             "result": {
-              "duration": 5429579,
+              "duration": 169810,
               "status": "passed"
             },
             "line": 9,
-            "name": "User is on login page with credentials",
+            "name": "User is on login page",
             "match": {
-              "location": "stepDefinition.user_is_on_login_page_with_credentials()"
+              "location": "stepDefinition.user_is_on_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 22389441,
+              "duration": 1252766781,
               "status": "passed"
             },
             "line": 10,
-            "name": "User logging in to the application with ACNADMFR and ACNADMFR1",
+            "name": "User logging in to the application with user@phptravels.com and demouser",
             "match": {
               "arguments": [
                 {
-                  "val": "ACNADMFR",
+                  "val": "user@phptravels.com",
                   "offset": 40
                 },
                 {
-                  "val": "ACNADMFR1",
-                  "offset": 53
+                  "val": "demouser",
+                  "offset": 64
                 }
               ],
               "location": "stepDefinition.user_logging_in_to_the_application_with_and(String,String)"
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 122875,
+              "duration": 191144,
               "status": "passed"
             },
             "line": 11,
@@ -107,124 +107,7 @@
           },
           {
             "result": {
-              "duration": 109650,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Logging to application is validated",
-            "match": {
-              "location": "stepDefinition.logging_to_application_is_validated()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 151462,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "Validate the Browser",
-            "match": {
-              "location": "stepDefinition.validate_the_browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 262818,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "The browser is triggered",
-            "match": {
-              "location": "stepDefinition.the_browser_is_triggered()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 111783,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Check if the browser has triggered",
-            "match": {
-              "location": "stepDefinition.check_if_the_browser_has_triggered()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 17,
-        "name": "Login to default homepage",
-        "description": "",
-        "id": "login-the-application;login-to-default-homepage;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 351988,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User is on login page with credentials",
-            "match": {
-              "location": "stepDefinition.user_is_on_login_page_with_credentials()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 800400,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "User logging in to the application with ACNADMUS and ACNADMUS1",
-            "match": {
-              "arguments": [
-                {
-                  "val": "ACNADMUS",
-                  "offset": 40
-                },
-                {
-                  "val": "ACNADMUS1",
-                  "offset": 53
-                }
-              ],
-              "location": "stepDefinition.user_logging_in_to_the_application_with_and(String,String)"
-            },
-            "matchedColumns": [
-              0,
-              1
-            ],
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 286283,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "Landing in the Home page",
-            "match": {
-              "location": "stepDefinition.landing_in_the_Home_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 272204,
+              "duration": 2145717469,
               "status": "passed"
             },
             "line": 12,

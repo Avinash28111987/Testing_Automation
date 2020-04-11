@@ -12,8 +12,6 @@ plugin= {"pretty", "html:G:/Git repository/Automation Framework Training Backup/
 		"json:G:/Git repository/Automation Framework Training Backup/Testing_Automation/target/JSON Result/Cucumber.json",
 		"junit:G:/Git repository/Automation Framework Training Backup/Testing_Automation/target/XML Result/junitreport.xml"})
 public class TestRunner 
-{
-
-	
+{	
 	
 }
