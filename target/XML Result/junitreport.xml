@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="6.993374">
+<testcase classname="Login the application" name="Login to default homepage" time="6.993374">
+<failure message="org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'USER-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;&#9;Ordinal0 [0x00FE5F73+2449267]&#10;&#9;Ordinal0 [0x00F18361+1606497]&#10;&#9;Ordinal0 [0x00E0F969+522601]&#10;&#9;Ordinal0 [0x00D9C7C4+51140]&#10;&#9;Ordinal0 [0x00DBC127+180519]&#10;&#9;Ordinal0 [0x00DBBF2D+180013]&#10;&#9;Ordinal0 [0x00DB9E5B+171611]&#10;&#9;Ordinal0 [0x00DA1DD8+73176]&#10;&#9;Ordinal0 [0x00DA2E50+77392]&#10;&#9;Ordinal0 [0x00DA2DE9+77289]&#10;&#9;Ordinal0 [0x00F2D8D7+1693911]&#10;&#9;GetHandleVerifier [0x01084036+522726]&#10;&#9;GetHandleVerifier [0x01083D74+522020]&#10;&#9;GetHandleVerifier [0x01099187+609079]&#10;&#9;GetHandleVerifier [0x010848A6+524886]&#10;&#9;Ordinal0 [0x00F25CBC+1662140]&#10;&#9;Ordinal0 [0x00F2F23B+1700411]&#10;&#9;Ordinal0 [0x00F2F3A3+1700771]&#10;&#9;Ordinal0 [0x00F45215+1790485]&#10;&#9;BaseThreadInitThunk [0x76803677+18]&#10;&#9;RtlInitializeExceptionChain [0x777A9D72+99]&#10;&#9;RtlInitializeExceptionChain [0x777A9D45+54]&#10;&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:422)&#13;&#10;&#9;at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)&#13;&#10;&#9;at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)&#13;&#10;&#9;at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)&#13;&#10;&#9;at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)&#13;&#10;&#9;at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)&#13;&#10;&#9;at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;&#10;&#9;at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)&#13;&#10;&#9;at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)&#13;&#10;&#9;at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)&#13;&#10;&#9;at Automation.Training.Base.getDriver(Base.java:13)&#13;&#10;&#9;at stepDefinitions.stepDefinition.application_url_is_entered(stepDefinition.java:21)&#13;&#10;&#9;at ✽.Given Application URL is entered(Login.feature:5)&#13;&#10;"><![CDATA[Given Application URL is entered............................................failed
+When User is on login page..................................................skipped
+Then User logging in to the application with username and password..........skipped
+Then Landing in the Home page...............................................skipped
+And Logging to application is validated.....................................skipped
+
+StackTrace:
+org.openqa.selenium.WebDriverException: unknown error: cannot find Chrome binary
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'USER-PC', ip: '192.168.0.102', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00FE5F73+2449267]
+	Ordinal0 [0x00F18361+1606497]
+	Ordinal0 [0x00E0F969+522601]
+	Ordinal0 [0x00D9C7C4+51140]
+	Ordinal0 [0x00DBC127+180519]
+	Ordinal0 [0x00DBBF2D+180013]
+	Ordinal0 [0x00DB9E5B+171611]
+	Ordinal0 [0x00DA1DD8+73176]
+	Ordinal0 [0x00DA2E50+77392]
+	Ordinal0 [0x00DA2DE9+77289]
+	Ordinal0 [0x00F2D8D7+1693911]
+	GetHandleVerifier [0x01084036+522726]
+	GetHandleVerifier [0x01083D74+522020]
+	GetHandleVerifier [0x01099187+609079]
+	GetHandleVerifier [0x010848A6+524886]
+	Ordinal0 [0x00F25CBC+1662140]
+	Ordinal0 [0x00F2F23B+1700411]
+	Ordinal0 [0x00F2F3A3+1700771]
+	Ordinal0 [0x00F45215+1790485]
+	BaseThreadInitThunk [0x76803677+18]
+	RtlInitializeExceptionChain [0x777A9D72+99]
+	RtlInitializeExceptionChain [0x777A9D45+54]
+
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:126)
+	at java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:498)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:471)
+	at java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:152)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:464)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at Automation.Training.Base.getDriver(Base.java:13)
+	at stepDefinitions.stepDefinition.application_url_is_entered(stepDefinition.java:21)
+	at ✽.Given Application URL is entered(Login.feature:5)
+]]></failure>
+</testcase>
+</testsuite>
